@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(1, minmax(100px, max-content));
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  /*
+  min-content 는 콘텐츠의 가장 작게 보여주며 콘텐츠가 튀어나오지 않게 하는 기능이다.
+  max-content 는 콘텐츠를 가장 크게 보여주며 콘텐츠의 크기를 벗어나지 않는 기능이다
+  */
+}
+
+.item1 {
+  background-color: aqua;
+}
+
+.item2 {
+  background-color: brown;
+}
+
+.item3 {
+  background-color: chocolate;
+}
+
+.item4 {
+  background-color: darkgreen;
+}
+
+.item5 {
+  background-color: darkmagenta;
+}
